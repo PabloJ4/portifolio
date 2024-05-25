@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100;0,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Roboto:ital,wght@0,100;0,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+/* experiência*/
+
+.experience{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    gap: 1rem;
+    
+
+}
+
+.experience > h2{
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+
+.experiencie__box{
+    width: 100vw;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+   
+}
+
+.experience__img{
+    width: 400px;
+    height: 200px;
+    
+}
+
+
+.experiencie__box:nth-child(odd) {
+    flex-direction: row-reverse;
+    
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    background-color:var(--cor-primaria);
+    border-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+button:hover{
+    color: var(--cor-hover);
+}
